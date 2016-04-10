@@ -23,7 +23,7 @@ import java.util.concurrent.atomic.AtomicLong;
 public class TaskListResource {
     private final int maxLength;
     private final AtomicLong counter;
-    //SLF4J is provided with dropwizard. Logback is also provided
+   
     Logger log = LoggerFactory.getLogger(TaskListResource.class);
 
     public TaskListResource(int maxLength) {
